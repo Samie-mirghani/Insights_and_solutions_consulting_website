@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insights - I&S Consulting</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="font-poppins">
+
+    <!-- Breadcrumbs Section -->
+    <section class="relative py-16 bg-gradient-to-r from-mc-blue to-mc-blue/95 overflow-hidden font-poppins">
+        <!-- Animated Background Elements -->
+        <div class="absolute inset-0">
+            <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0yIDJoNTZ2NTZIMnoiLz48cGF0aCBkPSJNMiAyaDU2djU2SDJ6Ii8+PHBhdGggZD0iTTAgMGg2MHY2MEgweiIvPjxwYXRoIGQ9Ik0wIDBoNjB2NjBIMHoiLz48cGF0aCBkPSJNMCAwaDE4djE4SDB6IiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDMpIi8+PC9nPjwvc3ZnPg==')] opacity-10"></div>
+            <div class="absolute top-0 left-0 w-96 h-96 bg-mc-green/10 rounded-full -translate-x-1/2 -translate-y-1/2 animate-pulse"></div>
+            <div class="absolute bottom-0 right-0 w-96 h-96 bg-white/5 rounded-full translate-x-1/2 translate-y-1/2 animate-pulse delay-700"></div>
+        </div>
+
+        <div class="container mx-auto px-4 md:px-8 relative">
+            <div class="flex flex-col items-center text-center">
+                <!-- Page Title -->
+                <h1 class="text-4xl md:text-5xl font-raleway font-bold text-white mb-6">
+                    Insights
+                </h1>
+
+                <!-- Breadcrumbs Navigation -->
+                <nav class="flex items-center space-x-3 text-white/80">
+                    <a href="/" class="hover:text-mc-green transition-colors duration-300 flex items-baseline group">
+                        <i class="fas fa-home text-mc-green mr-2"></i>
+                        <span>Home</span>
+                        <i class="fas fa-chevron-right text-white/50 text-sm mx-3 group-hover:text-mc-green transition-colors duration-300"></i>
+                    </a>
+                    <span class="text-mc-green font-medium">Insights</span>
+                </nav>
+
+                <!-- Decorative Elements -->
+                <div class="mt-8 relative">
+                    <div class="h-1 w-20 bg-mc-green mx-auto"></div>
+                    <div class="absolute -top-4 -left-4 w-2 h-2 bg-mc-green/50 rounded-full animate-ping"></div>
+                    <div class="absolute -bottom-4 -right-4 w-2 h-2 bg-mc-green/50 rounded-full animate-ping" style="animation-delay: -1s;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Down Indicator -->
+        <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-center">
+            <a href="#insights-content" class="inline-block text-white/80 hover:text-mc-green transition-colors duration-300">
+                <i class="fas fa-arrow-down animate-bounce"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Insights Main Section -->
+    <section id="insights-content" class="relative py-20 bg-gradient-to-br from-white via-mc-bluebg/10 to-white overflow-hidden font-poppins">
+      <div class="container mx-auto px-4 md:px-8">
+        <!-- Heading and Search Bar Row -->
+        <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-12 gap-6 animate-fade-in">
+          <h2 class="text-3xl md:text-4xl font-raleway font-bold text-mc-blue">Latest Insights</h2>
+          <div class="w-full md:w-96 relative">
+            <input id="insights-search" type="text" placeholder="Search by keyword or category..." class="w-full py-3 pl-5 pr-12 rounded-lg border-2 border-mc-blue/20 focus:border-mc-green focus:ring-2 focus:ring-mc-green/20 transition-all duration-300 shadow-sm font-poppins text-mc-blue text-lg bg-white placeholder-mc-blue/40">
+            <span class="absolute right-4 top-1/2 -translate-y-1/2 text-mc-blue/40 pointer-events-none"><i class="fas fa-search"></i></span>
+          </div>
+        </div>
+        <!-- Blog Cards Grid -->
+        <div id="insights-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Card 1 -->
+           <div class="insight-card group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden transform hover:-translate-y-2 animate-fade-in" data-category="Strategy" data-title="Driving Impactful Change: Strategy in Action">
+            <a href="/hot-peppers-insight" class="block overflow-hidden">
+              <img src="https://www.is-consult.net/s/Hot_peppers.jpg" alt="Hot Peppers" class="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-105">
+            </a>
+            <div class="p-6">
+              <span class="inline-block px-3 py-1 bg-mc-green/10 text-mc-green font-semibold rounded-full text-xs mb-3">Context Analysis</span>
+              <a href="hot-peppers-insight" class="block text-xl font-bold font-raleway text-mc-blue group-hover:text-mc-green transition-colors duration-300 mb-2 line-clamp-2">Hot Peppers and Politics on the Thai Border</a>
+              <div class="text-sm text-gray-500">June 29, 2025</div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="insight-card group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden transform hover:-translate-y-2 animate-fade-in-delay" data-category="Evaluation" data-title="Measuring What Matters: Evaluation Best Practices">
+            <a href="/sunset-insight" class="block overflow-hidden">
+              <img src="https://www.is-consult.net/s/Sunset.jpg" alt="Sunset" class="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-105">
+            </a>
+            <div class="p-6">
+              <span class="inline-block px-3 py-1 bg-mc-green/10 text-mc-green font-semibold rounded-full text-xs mb-3">Peer-to-Peer Learning</span>
+              <a href="/sunset-insight" class="block text-xl font-bold font-raleway text-mc-blue group-hover:text-mc-green transition-colors duration-300 mb-2 line-clamp-2">Stunning Sunsets and Contrasts in West Africa</a>
+              <div class="text-sm text-gray-500">July 2, 2025</div>
+            </div>
+          </div>
+          <!-- Card 3: The Last Eggs in Western Sudan -->
+          <div class="insight-card group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden transform hover:-translate-y-2 animate-fade-in-delay-2"
+              data-category="Community Systems Support"
+              data-title="The Last Eggs in Western Sudan">
+
+            <a href="/last-eggs-western-sudan" class="block overflow-hidden">
+              <img src="https://www.is-consult.net/s/Eggs_in_basket.jpeg"
+                  alt="Eggs in a basket in Western Sudan"
+                  class="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-105">
+            </a>
+
+            <div class="p-6">
+              <span class="inline-block px-3 py-1 bg-mc-green/10 text-mc-green font-semibold rounded-full text-xs mb-3">
+                Community Systems Support
+              </span>
+
+              <a href="/last-eggs-western-sudan"
+                class="block text-xl font-bold font-raleway text-mc-blue group-hover:text-mc-green transition-colors duration-300 mb-2 line-clamp-2">
+                The Last Eggs in Western Sudan
+              </a>
+
+              <div class="text-sm text-gray-500">January 28, 2026</div>
+            </div>
+          </div>
+
+          <!-- Card 4: The Stupidity Tour in China with Bathboy -->
+          <div class="insight-card group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden transform hover:-translate-y-2 animate-fade-in"
+              data-category="Professional Transitions"
+              data-title="The Stupidity Tour in China with Bathboy">
+
+            <a href="/stupidity-tour-china" class="block overflow-hidden">
+              <img src="https://www.is-consult.net/s/Great_Wall_of_China.jpeg"
+                  alt="Great Wall of China"
+                  class="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-105">
+            </a>
+
+            <div class="p-6">
+              <span class="inline-block px-3 py-1 bg-mc-green/10 text-mc-green font-semibold rounded-full text-xs mb-3">
+                Professional Transitions
+              </span>
+
+              <a href="/stupidity-tour-china"
+                class="block text-xl font-bold font-raleway text-mc-blue group-hover:text-mc-green transition-colors duration-300 mb-2 line-clamp-2">
+                The Stupidity Tour in China with Bathboy
+              </a>
+
+              <div class="text-sm text-gray-500">January 28, 2026</div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="insight-card group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden transform hover:-translate-y-2 animate-fade-in-delay" data-category="Leadership" data-title="Leadership in Development: Lessons Learned">
+            <a href="#" class="block overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=600&q=80" alt="Leadership" class="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-105">
+            </a>
+            <div class="p-6">
+              <span class="inline-block px-3 py-1 bg-mc-green/10 text-mc-green font-semibold rounded-full text-xs mb-3">Leadership</span>
+              <a href="#" class="block text-xl font-bold font-raleway text-mc-blue group-hover:text-mc-green transition-colors duration-300 mb-2 line-clamp-2">Coming Soon...</a>
+              <div class="text-sm text-gray-500"></div>
+            </div>
+          </div>
+          <!-- Card 6 -->
+          <div class="insight-card group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden transform hover:-translate-y-2 animate-fade-in-delay-2" data-category="Innovation" data-title="Innovation in Program Design">
+            <a href="#" class="block overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80" alt="Innovation" class="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-105">
+            </a>
+            <div class="p-6">
+              <span class="inline-block px-3 py-1 bg-mc-green/10 text-mc-green font-semibold rounded-full text-xs mb-3">Innovation</span>
+              <a href="#" class="block text-xl font-bold font-raleway text-mc-blue group-hover:text-mc-green transition-colors duration-300 mb-2 line-clamp-2">Coming Soon...</a>
+              <div class="text-sm text-gray-500"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </body>
+</html>
